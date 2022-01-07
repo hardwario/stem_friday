@@ -26,7 +26,7 @@ other = "Programování"
 other = "Vizuální pro všechny nebo Python, JavaScript a C pro pokročilé"
 
 [nft]
-other = "NTF a Blockchain"
+other = "NFT a Blockchain"
 
 [nft_desc]
 other = "Tokenizace, bezpečné ukládání a transakce IoT dat "
@@ -48,7 +48,7 @@ other = "Pedagogický rámec"
 other = "Osobní podpora"
 
 [start_together]
-other = "Začněme společně učit STEM na vaší škole"
+other = "Začněme společně učit<br/> STEM na vaší škole"
 
 [inspiration_speech]
 other = "Inspirativní přednáška"
@@ -201,7 +201,7 @@ other = "V případě dodávky IoT STEM sestav i inspirativních přednášek na
 other = "Zpět na úvodní stranu"
 
 [operated_by]
-other = "Program vyrobni.report provozuje"
+other = "Program STEM Friday provozuje"
 
 [vat_id] 
 other = "DIČ"
