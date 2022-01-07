@@ -1,0 +1,26 @@
+.mainHeader{
+    display: inline-block;
+    padding: 0 20px;
+
+    @media(max-width: 767px)
+    {
+        padding: 0 10px;
+    }
+
+  &:after{
+    content: "";
+    background:#1c9aea;
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin-top: -50px;
+    margin-left: 30px;
+
+    @media(max-width: 767px)
+    {
+        height: 30px;
+        margin-top: -30px;
+    margin-left: 10px;
+    }
+  }
+}

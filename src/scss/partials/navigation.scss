@@ -1,0 +1,28 @@
+.shop_link{
+  background-image: url("../images/icons/external-link.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: right 5px center;
+  background-color: #e30427;
+  padding-left: 7px;
+  padding-right: 10px;
+  margin-right: 20px;
+  color: white!important;
+
+  &:hover{
+    background-color: #b1031e;
+  }
+}
+
+.sticky{
+  &--scroll{
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 900;
+    top:0;
+    -webkit-box-shadow: 0 8px 6px -6px #ccc;
+    -moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 6px -6px #ccc;
+  }
+}

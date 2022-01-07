@@ -1,0 +1,410 @@
+{{ define "main" }}
+
+
+{{ $currentLang := .Site.Language.Lang }}
+
+<section>
+  <div class="bg bg-image2" id = "top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-7 pt-120 mt-md-0 pt-md-60">
+          <h1 class="font-white font-40 font-md-64 font-md-lnh68 font-weight-black pt-120 pt-md-20 pb-20">
+            {{ .Params.heading | safeHTML }}
+          </h1>        
+          <p class = "font-white font-20 font-lnh28 pb-20">{{ .Params.perex | safeHTML }}</p>
+          <div>
+
+            <a href="#benefits" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-purple">{{ i18n "learn_more" }}</a>
+            
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section>
+  <div class = "container pt-60 pb-70" id = "areas">
+      <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-5 mx-auto text-center">
+            <div class="font-grayLined font-gray2 mb-40 font-font2 font-weight-bold font-15"><span>{{ i18n "stem_program" }}</span></div>
+        </div>
+      </div>
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <ul class="row justify-content-center list-unstyled text-center carousel-indicators mx-0">
+              <li data-target="#carousel" data-slide-to="0" class="active col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/inspiration.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "inspiration" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="1" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/iot.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "iot" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="2" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/programming.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "programming" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="3" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/blockchain.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "nft" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="4" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/3d.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "3d_printing" | safeHTML }}</h3></li>
+          </ul>
+          <div class = "row justify-content-center">
+          <div class="col-10 carousel-inner bg-white shadow mt-20 px-20 pt-40 pb-30 text-center">
+              <div class="carousel-item active">
+                <p class = "font-18 font-lnh26">{{ i18n "inspiration_desc" | safeHTML }}</p>
+              </div>
+              <div class="carousel-item">
+                  <p class = "font-18 font-lnh26">{{ i18n "iot_desc" | safeHTML }}</p>
+              </div>
+              <div class="carousel-item">
+                  <p class = "font-18 font-lnh26">{{ i18n "programming_desc" | safeHTML }}</p>
+              </div>
+              <div class="carousel-item">
+                  <p class = "font-18 font-lnh26">{{ i18n "nft_desc" | safeHTML }}</p>
+              </div>
+              <div class="carousel-item">
+                  <p class = "font-18 font-lnh26">{{ i18n "3d_printing_desc" | safeHTML }}</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">x</span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">x</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg pb-md-30" style="overflow: hidden; display:block" id = "benefits">
+    <div class="container text-center">
+    <!--<div class = "row">
+        <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+          <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>Bezstarostná implementace</span></div>
+      </div>
+      </div>-->
+      <div class="row">
+         
+          <div class = "col-12 col-md-4 pb-30 pb-md-0">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "simple" | safeHTML }}</h3>
+            <p>Zapojení pro programu je snadné. Stačí STEM věnovat jednu hodinu týdně, nebo jen začít inspirativní přednáškou.</p>
+          </div>
+          <div class = "col-12 col-md-4 pb-30 pb-md-0">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "framework" | safeHTML }}</h3>
+            <p>Ve STEM lekcích využíváme pedagogický rámec navržený s odborníky na pedagogiku EDvisor Finland.</p>
+          </div>
+          <div class = "col-12 col-md-4">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "support" | safeHTML }}</h3>
+            <p>Poskytneme vám odbornou technickou i&nbsp;pedagogickou podporu. Součástí programu jsou také připravené STEM lekce.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg bg--gray" id = "how">
+      <div class="container py-30">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+              <h2 class="text-center pb-20 font-weight-black pt-60 font-38 font-md-56">{{ i18n "start_together" | safeHTML }}</h2>
+          </div>
+      </div>
+          <div class="row">
+            <div class = "col-12 col-md-6">
+              <img src = "/_assets/images/process-1.jpg" id = "collapsor-image" class = "img-fluid pt-40" />
+            </div>
+              <div class="col-12 col-md-6">
+                
+                  <div class="collapsor pt-10" id = "process">
+                    <div class="collapsor__item" img-url = "/_assets/images/process-1.jpg">
+                      <h3 class="collapsor__header collapsor__header--active">{{ i18n "step_1" | safeHTML }}</h3>
+                      <div class="collapsor__body collapsor__body--active">
+                        {{ i18n "step_1_desc" | safeHTML }}
+                      </div>
+                  </div>
+                  
+                  <div class="collapsor__item" img-url = "/_assets/images/process-2.jpg">
+                      <h3 class="collapsor__header">{{ i18n "step_2" | safeHTML }}</h3>
+                      <div class="collapsor__body">
+                        {{ i18n "step_2_desc" | safeHTML }}
+                      </div>
+                  </div>
+
+                  <div class="collapsor__item" img-url = "/_assets/images/process-3.JPG">
+                    <h3 class="collapsor__header">{{ i18n "step_3" | safeHTML }}</h3>
+                    <div class="collapsor__body">
+                      {{ i18n "step_3_desc" | safeHTML }}
+                    </div>
+                </div>
+
+                  <div class="collapsor__item" img-url = "/_assets/images/process-4.jpg">
+                    <h3 class="collapsor__header">{{ i18n "step_4" | safeHTML }}</h3>
+                    <div class="collapsor__body">
+                      {{ i18n "step_4_desc" | safeHTML }}
+                    </div>
+                </div>
+                  
+                <div class="collapsor__item" img-url = "/_assets/images/process-5.jpg">
+                  <h3 class="collapsor__header">{{ i18n "step_5" | safeHTML }}</h3>
+                  <div class="collapsor__body">
+                    {{ i18n "step_5_desc" | safeHTML }}
+                  </div>
+              </div>
+
+              <a href="#meeting" class="smooth cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-purple">{{ i18n "make_appointment" | safeHTML }}</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<script>
+  $('#process .collapsor__item').click(function(){
+    var image = $(this).attr('img-url');
+    $('#collapsor-image').attr('src',image);
+  });
+</script>
+
+</section>
+
+<section>
+  <div class="container">
+    
+      <div class="row align-items-center pb-10">
+          
+         <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
+              <div class="font-grayLined font-gray2 mb-30 font-font2 font-weight-bold font-15"><span>{{ i18n "references" | safeHTML }}</span></div>
+         </div>
+          <div class="col-12 text-center">
+            <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Program vyrobni.report již využívají</h2>
+            -->            
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="190" src="/_assets/images/unicorn.png" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="190" src="/_assets/images/sps-liberec.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="190" src="/_assets/images/czechitas.png" alt="" />
+              </span>
+          </div>
+          <!--<div class = "col-12 text-center pt-40">
+              <a href="{{ "case-studies/" | absLangURL }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "other_case_studies" }}</a>
+          </div>-->
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg bg--gray" id = "pricelist">
+      <div class="container ">
+          <div class="row">
+              <div class="col">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+                        <h2 class="text-center xpb-20 font-weight-black pt-60 font-38 font-md-56">{{ i18n "prices" | safeHTML }}</h2>
+                       <!-- <p class="text-center font-24 font-lnh38">{{ i18n "prices_desc" | safeHTML }}</p>-->
+                    </div>
+                </div>
+                  <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40 mb-40">
+                      <div class="row no-gutters">
+                        <div class="col-12 col-md-4">
+                          <div class="pricelist__item">
+                            <div class="pricelist__content">
+                              <h3 class="pricelist__title">{{ i18n "inspiration_speech" | safeHTML }}</h3>
+                        <!--
+                              <div class="product__images d-flex align-items-center justify-content-center">
+                                  <img src="/kits-images/" alt="" />
+                              </div>
+                        
+                        
+                              <div class="pricelist__title2">Text</div>
+                            -->
+                              <ul class="pricelist__items">
+                                <li class="pricelist__items__item">2hodinová online přednáška</li>
+                                <li class="pricelist__items__item">Inspirace pro učitele, studenty i&nbsp;rodiče</li>
+                              </ul>
+                                <!--<div class="pricelist__discount pt-30">{{ i18n "save_50" | safeHTML }}</div>-->
+                              <div class="pricelist__price">990 CZK</div>
+                               <!--<div class="pricelist__button">
+                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
+                              </div>-->
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                        <div class="col-12 col-md-4">
+                          <div class="pricelist__item x-pricelist__item--rec">
+                            <div class="pricelist__content">
+                              <!--<div class="pricelist__rec">{{ i18n "popular" | safeHTML }}</div>-->
+                              <h3 class="pricelist__title">{{ i18n "teacher_kit" | safeHTML }}</h3>
+                        <!--
+                              <div class="product__images d-flex align-items-center justify-content-center">
+                                  <img src="/kits-images/" alt="" />
+                              </div>
+                        
+                        
+                              <div class="pricelist__title2">Text</div>-->
+                              <ul class="pricelist__items">
+                                <li class="pricelist__items__item">20 různorodých modulů</li>
+                                <li class="pricelist__items__item">2hodinová inspirativní přednáška v&nbsp;ceně</li>
+                              </ul>
+                                <!--<div class="pricelist__discount pt-30">{{ i18n "save_30" | safeHTML }}</div>-->
+                              <div class="pricelist__price">24 990 CZK</div>
+                               <!--<div class="pricelist__button">
+                                <a href="#" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-30 d-inline-block font-weight-bold font-font2 font-white bg-red">Toto</a>
+                              </div>-->
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                        <div class="col-12 col-md-4">
+                          <div class="pricelist__item">
+                            <div class="pricelist__content">
+                              <h3 class="pricelist__title">{{ i18n "student_kit" | safeHTML }}</h3>
+                        <!--
+                              <div class="product__images d-flex align-items-center justify-content-center">
+                                  <img src="/kits-images/" alt="" />
+                              </div>
+                        
+                        
+                              <div class="pricelist__title2">Text</div>-->
+                        
+                              <ul class="pricelist__items">
+                                <li class="pricelist__items__item">Sada pro 1 studenta</li>
+                                <li class="pricelist__items__item">Tlačítko, měření teploty a akcelerometr</li>
+                              </ul>
+                              <!--<div class="pricelist__discount pt-30" style = "visibility: hidden;">0 </div>-->
+                              <div class="pricelist__price">2 990 CZK</div>
+                              <!--<div class="pricelist__button">
+                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
+                              </div>-->
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<div id = "meeting">
+<section>
+  <div class="">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="row pt-30">
+                    <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
+                      <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "partners" }}</span></div>
+                 </div>
+                      <div class="col-12 mx-auto text-center">
+                          <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Partneři programu vyrobni.report</h2>
+                          --><img src = "/_assets/images/hardwario.svg" class = "w-25 pt-20 pb-30 mr-20" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section>
+  <div class = "container">
+  <div class="row justify-content-center pt-60">
+    <div class="col-12 col-md-12 col-lg-12 bg-darkGray py-30 mb-60">
+        <div class = "row align-items-top">
+          <div class = "col-12 col-md-4 pt-md-50 px-50">
+              <img loading="lazy" src="/_assets/images/alan.png" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+              <p class = "font-white text-center pt-20">
+              <strong>Alan Fabik</strong><br/>
+              <a class = "font-white" href = "mailto:alan.fabik@hardwario.com">alan.fabik@hardwario.com</a><br/>
+              {{ i18n "ceo" }} HARDWARIO</p>
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 font-white">
+          <h3 class = "font-32 font-weight-bold pb-20">{{ i18n "let_contact" }}</h3>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+            region: "na1",
+            portalId: "5453210",
+            formId: "{{ .Params.form_id }}"
+          });
+          </script>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+</div>
+<section>
+  <div class="bg bg--gray">
+      <div class="container">
+          <div class = "row">
+            <div class = "col-12 text-center">
+              <h2 class="font-40 font-weight-black pt-20">{{ i18n "faq" | safeHTML }}</h2>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <div class="collapsor pt-20">
+                    
+                    <div class="collapsor__item">
+                      <h2 class="collapsor__header collapsor__header--active">{{ i18n "faq_1" | safeHTML }}</h2>
+                      <div class="collapsor__body collapsor__body--active">
+                        {{ i18n "faq_1_desc" | safeHTML }}
+                      </div>
+                  </div>
+
+                  <div class="collapsor__item">
+                      <h2 class="collapsor__header">{{ i18n "faq_2" | safeHTML }}</h2>
+                      <div class="collapsor__body">
+                        {{ i18n "faq_2_desc" | safeHTML }}
+                      </div>
+                  </div>
+                  <div class="collapsor__item">
+                    <h2 class="collapsor__header">{{ i18n "faq_3" | safeHTML }}</h2>
+                    <div class="collapsor__body">
+                      {{ i18n "faq_3_desc" | safeHTML }}
+                    </div>
+                </div>
+                <div class="collapsor__item">
+                  <h2 class="collapsor__header">{{ i18n "faq_4" | safeHTML }}</h2>
+                  <div class="collapsor__body">
+                    {{ i18n "faq_4_desc" | safeHTML }}
+                  </div>
+              </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+<script type="text/javascript">
+  $('.playVideo').click(function(){
+    $('#playVideo').modal({
+      keyboard: false
+    })
+  });
+
+</script>
+
+<script>
+  $("a.smooth[href^=\\#]").click(function(e) {
+    e.preventDefault();
+    var dest = $(this).attr('href');
+    //console.log(dest);
+    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
+  });
+</script>
+
+
+
+
+{{ end }}

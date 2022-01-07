@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+
+<section>
+  <div class="bg " id = "top">
+    <div class="container">
+      <div class="row pb-120 pb-120">
+        <div class="col-12 col-md-8 pt-120 pb-120 pb-120 mt-md-0 pt-md-60">
+          <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-120 pt-md-20 pb-20">
+            {{ .Params.heading | safeHTML }}
+          </h1>        
+          <p class = "font-20 font-lnh28 pb-20">{{ .Params.perex | safeHTML }}</p>
+          <div>
+
+            <a href="{{ .Site.Params.baseURL }}" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-purple">{{ i18n "back_home" }}</a>
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+{{ end }}

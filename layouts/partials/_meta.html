@@ -1,0 +1,6 @@
+<title>{{ $.Page.Params.meta_title }}</title>
+<meta name="description" content="{{ .Params.meta_description }}">
+<meta property="og:url" content="{{ .URL | absURL }}" />
+<meta property='og:title' content="{{ $.Page.Params.meta_title }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">

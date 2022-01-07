@@ -1,0 +1,11 @@
+.mapOverlay{
+    position: absolute; 
+    top:0; 
+    left:20%; 
+    z-index:10;
+
+    @media(max-width: 767px)
+    {
+        left: 0;
+    }
+}

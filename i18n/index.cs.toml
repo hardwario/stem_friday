@@ -1,0 +1,216 @@
+[play_video]
+other = "Přehrát video"
+
+[learn_more]
+other = "Zjistit více"
+
+[stem_program]
+other = "Prvky našeho STEM programu"
+
+[inspiration]
+other = "Inspirativní přednášky"
+
+[inspiration_desc]
+other = "Pro studenty i učitele, u vás ve škole nebo online"
+
+[iot]
+other = "Internet věcí"
+
+[iot_desc]
+other = "Sestavy pro monitoring kvality vzduchu, ovládání spotřebičů nebo notifikace"
+
+[programming]
+other = "Programování"
+
+[programming_desc]
+other = "Vizuální pro všechny nebo Python, JavaScript a C pro pokročilé"
+
+[nft]
+other = "NTF a Blockchain"
+
+[nft_desc]
+other = "Tokenizace, bezpečné ukládání a transakce IoT dat "
+
+[3d_printing]
+other = "3D tisk"
+
+[3d_printing_desc]
+other = "Modely pro krabičky IoT sestav"
+
+
+[simple]
+other = "Snadné zapojení"
+
+[framework]
+other = "Pedagogický rámec"
+
+[support]
+other = "Osobní podpora"
+
+[start_together]
+other = "Začněme společně učit STEM na vaší škole"
+
+[inspiration_speech]
+other = "Inspirativní přednáška"
+
+[teacher_kit]
+other = "IoT STEM sada pro učitele"
+
+[student_kit]
+other = "IoT STEM sada pro žáka"
+
+[30_test]
+other = "30 dní na vyzkoušení"
+
+[30_test_desc]
+other = "Společně ověříme funkčnost a přínosy systému na jednom vašem zařízení. Test je na 30 dní zdarma a&nbsp;bez závazku."
+
+[noninvasive]
+other = "Neinvazivní metoda"
+
+[noninvasive_desc]
+other = "Data získáme bez zásahu do vašeho zařízení a pošleme je bezpečnou nezávislou bezdrátovou sítí."
+
+[fast_return]
+other = "Rychlá návratnost"
+
+[fast_return_desc]
+other = "Postupná implementace bez nutnosti změny vašich procesů a nástrojů s okamžitou návratností vaší&nbsp;investice."
+
+[step_1]
+other = "1. Osobní online schůzka"
+
+[step_1_desc]
+other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Představíme vám, jak program funguje a probereme vaše očekávání."
+
+[step_2]
+other = "2. Výběr způsobu zapojení do programu"
+
+[step_2_desc]
+other = "Domluvíme se, jakým způsobem se do programu zapojíte. Může jít nejprve jen o inspirativní přednášku, nebo se rovnou domluvíme na počtu sestav pro studenty a učitele."
+
+[step_3]
+other = "3. Inspirativní přednáška"
+
+[step_3_desc]
+other = "Nadchneme všechny - učitele, studenty i rodiče. Vysvětlíme co je STEM vzdělávání, výhody program STEM FRIDAY a proč stačí 1 hodina týdně."
+
+[step_4]
+other = "4. Dodání IoT sestav"
+
+[step_4_desc]
+other = "Sestavy pro studenty i učitele vám zašleme do školy. S nimi budete mít k dispozici online návody, STEM lekce a naši technickou podporu."
+
+[step_5]
+other = "5. Podpora při výuce"
+
+[step_5_desc]
+other = "Naše online podpora vám bude k dispozici. Pomůžeme vás s technickými výzvami i radami pro výuku."
+
+[make_appointment]
+other = "Domluvit schůzku"
+
+[references]
+other = "Program STEM FRIDAY již využívají"
+
+[prices]
+other = "Ceny"
+
+[prices_desc]
+other = "Cena služby startuje na 490 Kč měsíčně a je závislá na délce úvazku a&nbsp;použitých senzorech."
+
+[36]
+other = "Závazek 36 měsíců"
+
+[36_price]
+other = "od 490 CZK / měsíc"
+
+[24]
+other = "Závazek 24 měsíců"
+
+[24_price]
+other = "od 690 CZK / měsíc"
+
+[12]
+other = "Závazek 12 měsíců"
+
+[12_price]
+other = "od 990 CZK / měsíc"
+
+[reporting_pbi]
+other = "Reporting dat přes Power BI"
+
+[rest_api]
+other = "Přístup k REST API a Callbackům pro vlastní integraci"
+
+[replacement]
+other = "Bezplatná výměna při poruše do 48 hodin"
+
+[insurance]
+other = "Pojištění proti krádeži a zničení"
+
+[popupar]
+other = "Populární"
+
+[save_50]
+other = "Ušetříte 50 %"
+
+[save_30]
+other = "Ušetříte 30 %"
+
+[from]
+other = "od"
+
+[partners]
+other = "Partneři programu STEM FRIDAY"
+
+[ceo]
+other = "CEO a spoluzakladatel"
+
+[let_contact]
+other = "Nechte mi na vás kontakt, ozvu se"
+
+[faq]
+other = "Vaše nejčastější dotazy"
+
+[faq_1]
+other = "Jak můžu využít program STEM FRIDAY?"
+
+[faq_1_desc]
+other = "Po odeslání formuláře vás Alan kontaktuje a domluvíte se na termínu společného telefonátu. Cílem je zjistit jakým způsobem začneme STEM výuku na vaší škole."
+
+[faq_2]
+other = "Mohu využít pouze nabídku na inspirativní přednášku?"
+
+[faq_2_desc]
+other = "Ano, stačí si rezervovat termín pro inspirativní přednášku v kalendáři. Po rezervaci vás budeme kontaktovat a domluvíme se na detailech."
+
+[faq_3]
+other = "Není váš program pro naši školu příliš složitý?"
+
+[faq_3_desc]
+other = "V žádném případě. Každá škola si zvolí úroveň zapojení podle svých možností. Nejlepším začátkem je inspirativní přednáška pro učitelský sbor se závěrečnou diskusí nad způsobem zapojení."
+
+[faq_4]
+other = "Můžeme si váš program vyzkoušet bezplatně?"
+
+[faq_4_desc]
+other = "V případě dodávky IoT STEM sestav i inspirativních přednášek nabízíme garanci 100 dnů na vrácení peněz."
+
+[back_home]
+other = "Zpět na úvodní stranu"
+
+[operated_by]
+other = "Program vyrobni.report provozuje"
+
+[vat_id] 
+other = "DIČ"
+
+[company_id]
+other = "IČO"
+
+[czechia]
+other = "Česko"
+
+[recorded]
+other = "Společnost je zapsána u Krajského soudu v Ústí nad Labem sp.zn. C 37399"
