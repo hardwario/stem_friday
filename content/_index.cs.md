@@ -3,7 +3,7 @@ title: Úvod
 url: /
 menu: []
 weight: 1
-meta_title: STEM PÁTEK - Dostupný STEM program pro vaši školu
+meta_title: STEM FRIDAY - Dostupný STEM program pro vaši školu
 meta_description: 
 heading: Dostupný<br/> STEM program <br/>pro vaši školu
 perex: Stačí jedna hodina každý pátek.
