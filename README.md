@@ -1,1 +1,1 @@
-# sidriště lučica
+# STEM FRIDAY

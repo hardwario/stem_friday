@@ -26,75 +26,72 @@
 </section>
 
 <section>
-  <div class = "container pt-60 pb-70" id = "areas">
-      <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-5 mx-auto text-center">
-            <div class="font-grayLined font-gray2 mb-40 font-font2 font-weight-bold font-15"><span>{{ i18n "stem_program" }}</span></div>
-        </div>
-      </div>
-      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-          <ul class="row justify-content-center list-unstyled text-center carousel-indicators mx-0">
-              <li data-target="#carousel" data-slide-to="0" class="active col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/inspiration.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "inspiration" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="1" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/iot.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "iot" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="2" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/programming.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "programming" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="3" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/blockchain.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "nft" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="4" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/3d.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "3d_printing" | safeHTML }}</h3></li>
-          </ul>
-          <div class = "row justify-content-center">
-          <div class="col-10 carousel-inner bg-white shadow mt-20 px-20 pt-40 pb-30 text-center">
-              <div class="carousel-item active">
-                <p class = "font-18 font-lnh26">{{ i18n "inspiration_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "iot_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "programming_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "nft_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "3d_printing_desc" | safeHTML }}</p>
-              </div>
+  <div class="text-md-left pt-60 pb-60">
+      <div class="container">
+          <div class="row justify-content-center">
+              <!--<div class="pb-30 col-12 text-center">
+                  <h2 class = "font-30 font-md-42 pt-50 font-weight-black text-center">{{ i18n "benefits_of" }} {{ .Params.heading }}</h2>
+                  <p class="font-20 font-lnh24">{{ i18n "benefits_conditions" }}</p>
+              </div>-->
+              <div class = "col-12">
+                <div class = "row">
+                    <div class="col pb-30">
+                        <div class="row justify-content-center align-items-center">
+      
+                            <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                                <img loading="lazy" src="/_assets/images/benefits/inspiration.svg" class="w-100 mt-20" alt="" />
+                            </div>
+                            <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                                <h3 class="font-20 font-weight-black font-lnh30">Snadné zapojení</h3>
+                                <p class="font-16 font-lnh24">Zapojení pro programu je snadné. Stačí STEM věnovat jednu hodinu týdně, nejlépe v pátek.</p>
+                            </div>
+
+                            <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                              <img loading="lazy" src="/_assets/images/benefits/blockchain.svg" class="w-100 mt-20" alt="" />
+                          </div>
+                          <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                              <h3 class="font-20 font-weight-black font-lnh30">Připravený výukový plán</h3>
+                              <p class="font-16 font-lnh24">V připravených STEM lekcích využíváme pedagogický rámec navržený s odborníky EDvisor Finland.</p>
+                          </div>
+
+                          <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                            <img loading="lazy" src="/_assets/images/benefits/programming.svg" class="w-100 mt-20" alt="" />
+                        </div>
+                        <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                            <h3 class="font-20 font-weight-black font-lnh30">Osobní podpora</h3>
+                            <p class="font-16 font-lnh24">Poskytneme vám odbornou technickou i pedagogickou podporu pro vyučující.</p>
+                        </div>
+                </div>
             </div>
-          </div>
-          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true">x</span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true">x</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+      </div>
   </div>
 </section>
 
 <section>
-  <div class="bg pb-md-30" style="overflow: hidden; display:block" id = "benefits">
-    <div class="container text-center">
-    <!--<div class = "row">
-        <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
-          <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>Bezstarostná implementace</span></div>
+  <div class="container">
+    
+      <div class="row align-items-center pb-10">
+          
+         <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
+              <div class="font-grayLined font-gray2 mb-30 font-font2 font-weight-bold font-15"><span>{{ i18n "references" | safeHTML }}</span></div>
+         </div>
+          <div class="col-12 text-center">
+            <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Program vyrobni.report již využívají</h2>
+            -->            
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="190" src="/_assets/images/unicorn.png" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="190" src="/_assets/images/sps-liberec.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="190" src="/_assets/images/czechitas.png" alt="" />
+              </span>
+          </div>
+          <!--<div class = "col-12 text-center pt-40">
+              <a href="{{ "case-studies/" | absLangURL }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "other_case_studies" }}</a>
+          </div>-->
       </div>
-      </div>-->
-      <div class="row">
-         
-          <div class = "col-12 col-md-4 pb-30 pb-md-0">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "simple" | safeHTML }}</h3>
-            <p>Zapojení pro programu je snadné. Stačí STEM věnovat jednu hodinu týdně, nebo jen začít inspirativní přednáškou.</p>
-          </div>
-          <div class = "col-12 col-md-4 pb-30 pb-md-0">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "framework" | safeHTML }}</h3>
-            <p>Ve STEM lekcích využíváme pedagogický rámec navržený s odborníky na pedagogiku EDvisor Finland.</p>
-          </div>
-          <div class = "col-12 col-md-4">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "support" | safeHTML }}</h3>
-            <p>Poskytneme vám odbornou technickou i&nbsp;pedagogickou podporu. Součástí programu jsou také připravené STEM lekce.</p>
-          </div>
-        </div>
-    </div>
   </div>
 </section>
 
@@ -126,13 +123,13 @@
                         {{ i18n "step_2_desc" | safeHTML }}
                       </div>
                   </div>
-
+                  <!--
                   <div class="collapsor__item" img-url = "/_assets/images/process-3.JPG">
                     <h3 class="collapsor__header">{{ i18n "step_3" | safeHTML }}</h3>
                     <div class="collapsor__body">
                       {{ i18n "step_3_desc" | safeHTML }}
                     </div>
-                </div>
+                </div>-->
 
                   <div class="collapsor__item" img-url = "/_assets/images/process-4.jpg">
                     <h3 class="collapsor__header">{{ i18n "step_4" | safeHTML }}</h3>
@@ -165,143 +162,45 @@
 </section>
 
 <section>
-  <div class="container">
-    
-      <div class="row align-items-center pb-10">
-          
-         <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
-              <div class="font-grayLined font-gray2 mb-30 font-font2 font-weight-bold font-15"><span>{{ i18n "references" | safeHTML }}</span></div>
-         </div>
-          <div class="col-12 text-center">
-            <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Program vyrobni.report již využívají</h2>
-            -->            
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                  <img width="190" src="/_assets/images/unicorn.png" alt="" />
-              </span>
-              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                  <img width="190" src="/_assets/images/sps-liberec.svg" alt="" />
-              </span>
-              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                  <img width="190" src="/_assets/images/czechitas.png" alt="" />
-              </span>
-          </div>
-          <!--<div class = "col-12 text-center pt-40">
-              <a href="{{ "case-studies/" | absLangURL }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "other_case_studies" }}</a>
-          </div>-->
-      </div>
-  </div>
-</section>
-
-<section>
-  <div class="bg bg--gray" id = "pricelist">
-      <div class="container ">
-          <div class="row">
-              <div class="col">
-                <div class="row">
-                    <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                        <h2 class="text-center xpb-20 font-weight-black pt-60 font-38 font-md-56">{{ i18n "prices" | safeHTML }}</h2>
-                       <!-- <p class="text-center font-24 font-lnh38">{{ i18n "prices_desc" | safeHTML }}</p>-->
-                    </div>
-                </div>
-                  <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40 mb-40">
-                      <div class="row no-gutters">
-                        <div class="col-12 col-md-4">
-                          <div class="pricelist__item">
-                            <div class="pricelist__content">
-                              <h3 class="pricelist__title">{{ i18n "inspiration_speech" | safeHTML }}</h3>
-                        <!--
-                              <div class="product__images d-flex align-items-center justify-content-center">
-                                  <img src="/kits-images/" alt="" />
-                              </div>
-                        
-                        
-                              <div class="pricelist__title2">Text</div>
-                            -->
-                              <ul class="pricelist__items">
-                                <li class="pricelist__items__item">2hodinová online přednáška</li>
-                                <li class="pricelist__items__item">Inspirace pro učitele, studenty i&nbsp;rodiče</li>
-                              </ul>
-                                <!--<div class="pricelist__discount pt-30">{{ i18n "save_50" | safeHTML }}</div>-->
-                              <div class="pricelist__price">990 CZK</div>
-                               <!--<div class="pricelist__button">
-                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
-                              </div>-->
-                            </div>
-                          </div>
-                        </div>
-                        
-
-                        <div class="col-12 col-md-4">
-                          <div class="pricelist__item x-pricelist__item--rec">
-                            <div class="pricelist__content">
-                              <!--<div class="pricelist__rec">{{ i18n "popular" | safeHTML }}</div>-->
-                              <h3 class="pricelist__title">{{ i18n "teacher_kit" | safeHTML }}</h3>
-                        <!--
-                              <div class="product__images d-flex align-items-center justify-content-center">
-                                  <img src="/kits-images/" alt="" />
-                              </div>
-                        
-                        
-                              <div class="pricelist__title2">Text</div>-->
-                              <ul class="pricelist__items">
-                                <li class="pricelist__items__item">20 různorodých modulů</li>
-                                <li class="pricelist__items__item">2hodinová inspirativní přednáška v&nbsp;ceně</li>
-                              </ul>
-                                <!--<div class="pricelist__discount pt-30">{{ i18n "save_30" | safeHTML }}</div>-->
-                              <div class="pricelist__price">24 990 CZK</div>
-                               <!--<div class="pricelist__button">
-                                <a href="#" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-30 d-inline-block font-weight-bold font-font2 font-white bg-red">Toto</a>
-                              </div>-->
-                            </div>
-                          </div>
-                        </div>
-                        
-
-                        <div class="col-12 col-md-4">
-                          <div class="pricelist__item">
-                            <div class="pricelist__content">
-                              <h3 class="pricelist__title">{{ i18n "student_kit" | safeHTML }}</h3>
-                        <!--
-                              <div class="product__images d-flex align-items-center justify-content-center">
-                                  <img src="/kits-images/" alt="" />
-                              </div>
-                        
-                        
-                              <div class="pricelist__title2">Text</div>-->
-                        
-                              <ul class="pricelist__items">
-                                <li class="pricelist__items__item">Sada pro 1 studenta</li>
-                                <li class="pricelist__items__item">Tlačítko, měření teploty a akcelerometr</li>
-                              </ul>
-                              <!--<div class="pricelist__discount pt-30" style = "visibility: hidden;">0 </div>-->
-                              <div class="pricelist__price">2 990 CZK</div>
-                              <!--<div class="pricelist__button">
-                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
-                              </div>-->
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-<div id = "meeting">
-<section>
-  <div class="">
+  <div class="bg bg--gray bg--bubbles bg--borderedBottom" id = "pricelist">
       <div class="container">
           <div class="row">
               <div class="col">
-                  <div class="row pt-30">
-                    <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
-                      <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "partners" }}</span></div>
-                 </div>
-                      <div class="col-12 mx-auto text-center">
-                          <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Partneři programu vyrobni.report</h2>
-                          --><img src = "/_assets/images/hardwario.svg" class = "w-25 pt-20 pb-30 mr-20" />
+                  <div class="pricelist pricelist--bottom-3-5">
+                      <div class="row no-gutters">
+                          
+                          <div class="col-12">
+                              <div class="pricelist__item pricelist__item--rec">
+                                  <div class="pricelist__content">
+                                      <div class="pricelist__rec">DOPORUČUJEME</div>
+                                      <div class="logo logo--2"></div>
+                                      <h3 class="pricelist__title">STEM sada pro jednu třídu</h3>
+
+                                      <div class = "row">
+                                        <div class = "col-5">
+                                          <div class="pricelist__title2 text-uppercase">Sada obsahuje:</div>
+                                          <ul class="pricelist__items">
+                                            <li class="pricelist__items__item">10× Sada Start</li>
+                                            <li class="pricelist__items__item">Sada Motion</li>
+                                            <li class="pricelist__items__item">Sada Clime</li>
+                                            <li class="pricelist__items__item">Sada Clime XL</li>
+                                            <li class="pricelist__items__item">Sada Display</li>
+                                            <li class="pricelist__items__item">Sada Control + LED pásek</li>
+                                            <li class="pricelist__items__item">Sada Sensor + Senzor vlhkosti půdy</li>
+                                            <li class="pricelist__items__item">Přístup k online lekcím</li>
+                                            <li class="pricelist__items__item">Osobní podpora vyučujícím</li>
+                                        </ul>
+                                        <div class="pt-30 text-left font-gray2"><strike>44 200 CZK</strike></div>
+                                        <div class="text-left pricelist__price">ZDARMA*</div>
+                                        <div class="text-left font-gray2">* při uplatnění dotace MŠMT, jinak 39 900 CZK</div>
+                                        </div>
+                                        <div class = "col-7">
+                                          <img src = "/_assets/images/process-2.jpg" class = "img-fluid"/>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
                       </div>
                   </div>
               </div>
@@ -309,6 +208,9 @@
       </div>
   </div>
 </section>
+
+<div id = "meeting">
+
 <section>
   <div class = "container">
   <div class="row justify-content-center pt-60">
@@ -336,6 +238,25 @@
   </div>
   </div>
 </section>
+<section>
+  <div class="">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="row pt-30">
+                    <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
+                      <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "partners" }}</span></div>
+                 </div>
+                      <div class="col-12 mx-auto text-center">
+                          <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Partneři programu vyrobni.report</h2>
+                          --><img src = "/_assets/images/hardwario.svg" class = "w-25 pt-20 pb-30 mr-20" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 </div>
 <section>
   <div class="bg bg--gray">
@@ -350,11 +271,18 @@
                   <div class="collapsor pt-20">
                     
                     <div class="collapsor__item">
-                      <h2 class="collapsor__header collapsor__header--active">{{ i18n "faq_1" | safeHTML }}</h2>
+                      <h2 class="collapsor__header collapsor__header--active">{{ i18n "faq_0" | safeHTML }}</h2>
                       <div class="collapsor__body collapsor__body--active">
-                        {{ i18n "faq_1_desc" | safeHTML }}
+                        {{ i18n "faq_0_desc" | safeHTML }}
                       </div>
                   </div>
+
+                  <div class="collapsor__item">
+                    <h2 class="collapsor__header collapsor__header--active">{{ i18n "faq_1" | safeHTML }}</h2>
+                    <div class="collapsor__body collapsor__body--active">
+                      {{ i18n "faq_1_desc" | safeHTML }}
+                    </div>
+                </div>
 
                   <div class="collapsor__item">
                       <h2 class="collapsor__header">{{ i18n "faq_2" | safeHTML }}</h2>

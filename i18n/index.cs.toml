@@ -84,25 +84,25 @@ other = "1. Osobní online schůzka"
 other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Představíme vám, jak program funguje a probereme vaše očekávání."
 
 [step_2]
-other = "2. Výběr způsobu zapojení do programu"
+other = "2. Výběr sad stavebnice TOWER"
 
 [step_2_desc]
-other = "Domluvíme se, jakým způsobem se do programu zapojíte. Může jít nejprve jen o inspirativní přednášku, nebo se rovnou domluvíme na počtu sestav pro studenty a učitele."
+other = "Podle vašich potřeb a dostupných vzorových lekcí vybereme vhodné sady stavebnice TOWER a jejich počet."
 
-[step_3]
+[step_3] #not in use
 other = "3. Inspirativní přednáška"
 
-[step_3_desc]
-other = "Nadchneme všechny - učitele, studenty i rodiče. Vysvětlíme co je STEM vzdělávání, výhody program STEM FRIDAY a proč stačí 1 hodina týdně."
+[step_3_desc] #not in use
+other = "Nadchneme všechny - učitele, studenty i rodiče. Vysvětlíme co je STEM vzdělávání, výhody program STEM Friday a proč stačí 1 hodina týdně."
 
 [step_4]
-other = "4. Dodání IoT sestav"
+other = "3. Dodání IoT sestav"
 
 [step_4_desc]
 other = "Sestavy pro studenty i učitele vám zašleme do školy. S nimi budete mít k dispozici online návody, STEM lekce a naši technickou podporu."
 
 [step_5]
-other = "5. Podpora při výuce"
+other = "4. Podpora při výuce"
 
 [step_5_desc]
 other = "Naše online podpora vám bude k dispozici. Pomůžeme vás s technickými výzvami i radami pro výuku."
@@ -111,7 +111,7 @@ other = "Naše online podpora vám bude k dispozici. Pomůžeme vás s technick�
 other = "Domluvit schůzku"
 
 [references]
-other = "Program STEM FRIDAY již využívají"
+other = "Program STEM Friday již využívají"
 
 [prices]
 other = "Ceny"
@@ -162,7 +162,7 @@ other = "Ušetříte 30 %"
 other = "od"
 
 [partners]
-other = "Partneři programu STEM FRIDAY"
+other = "Partneři programu STEM Friday"
 
 [ceo]
 other = "CEO a spoluzakladatel"
@@ -173,17 +173,23 @@ other = "Nechte mi na vás kontakt, ozvu se"
 [faq]
 other = "Vaše nejčastější dotazy"
 
+[faq_0]
+other = "Co je to program STEM Friday?"
+
+[faq_0_desc]
+other = "Ucelený program podpory učitelů pro výuku internetu věcí na základních a středních školách. Program je vytvořen na základě konceptu aktivní STEM výuky zaměřené na 4 obory: přírodní vědy (Science), technologie (Technology), techniku (Engineering) a matematiku (Mathematics). Zahrnuje elektronickou stavebnici, výukové materiály, vzorové lekce a technickou podporu."
+
 [faq_1]
-other = "Jak můžu využít program STEM FRIDAY?"
+other = "Jak můžu využít program STEM Friday?"
 
 [faq_1_desc]
 other = "Po odeslání formuláře vás Alan kontaktuje a domluvíte se na termínu společného telefonátu. Cílem je zjistit jakým způsobem začneme STEM výuku na vaší škole."
 
 [faq_2]
-other = "Mohu využít pouze nabídku na inspirativní přednášku?"
+other = "Jak funguje dotace MŠMT?"
 
 [faq_2_desc]
-other = "Ano, stačí si rezervovat termín pro inspirativní přednášku v kalendáři. Po rezervaci vás budeme kontaktovat a domluvíme se na detailech."
+other = "Díky dotaci MŠMT můžete pro vaši školu zdarma získat stavebnice internetu věcí, a to včetně vzorových lekcí a podpory učitelům. Dotaci je možné získat pro základní školy a gymnázia na základě výzvy Digitální učební pomůcky v kategorii Internet věcí. S vyplněním žádosti vám pomůžeme."
 
 [faq_3]
 other = "Není váš program pro naši školu příliš složitý?"
